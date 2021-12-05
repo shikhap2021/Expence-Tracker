@@ -27,7 +27,26 @@
 .App-link {
   color: #61dafb;
 }
+.inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: -webkit-inline-box;
+  margin: 20px 0;
+}
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
 
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #c0392b;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
